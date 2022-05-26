@@ -1,6 +1,5 @@
-## 要不跑路吧
+# 部署
 
-**中文** | [English](README_en-US.md)
+[一键部署](https://github.com/DrAugus/zhenxun_bot-deploy)
 
-代码和人有一个能run就行了  
-已经坐船到柬埔寨了，马上转船到金三角了（
+`bash <(curl -s -L https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot-deploy/master/install.sh)`
