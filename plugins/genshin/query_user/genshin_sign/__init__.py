@@ -66,7 +66,7 @@ async def _(event: MessageEvent, cmd: Tuple[str, ...] = Command()):
                 await u.clear_sign_time(uid)
                 next_date = await Genshin.random_sign_time(uid)
                 add_job(event.user_id, uid, next_date)
-                msg += f"因开启自动签到\n下一次签到时间为：{next_date.replace(microsecond=0)}"
+                msg += f"\n因开启自动签到\n下一次签到时间为：{next_date.replace(microsecond=0)}"
         except Exception as e:
             msg = "原神签到失败..请尝试检查cookie或报告至管理员！"
             logger.info(
